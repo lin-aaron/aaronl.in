@@ -20,7 +20,7 @@ I'll be updating this site in the winter, so watch out world!!!! I don't know wh
   * __EE 198__, HANDS ON HAM RADIO LICENSING!!!! To basically become a master of radio waves, no biggie.
   * __Anthro R1B__, Reading and Writing about Anthropology. I don't know what the topic of the class is yet, but hopefully it's interesting.
   * __CS 195__, Social Implications of Computing. Taught by the one and only [Joshua Hug](https://www2.eecs.berkeley.edu/Faculty/Homepages/joshhug.html) so you know it's gonna be a great class. Also because security and privacy is becoming such a huge issue as we keep hearing about in the media, and the fact that technology/social media is [changing the very fabric of society](https://www.youtube.com/watch?time_continue=1281&v=PMotykw0SIk) faster than we can begin to comprehend keeps me up at night. But mainly Josh Hug because he is a blessing to us all. 
-  * __CS 198__, Intro to Machine Learning (verrrry strong maybe) Probably not going to take this but for some reason I still put myself on the waitlist  *during Phase I* (smh @ the time I thought 189 would fit into the workload above, a mere four weeks ago).
+  * __CS 189__, Intro to Machine Learning (verrrry strong maybe) Probably not going to take this but for some reason I still put myself on the waitlist  *during Phase I* (smh @ the time I thought 189 would fit into the workload above, a mere four weeks ago).
 
 
 ## I should probably get back to studying for finals now haha bye
