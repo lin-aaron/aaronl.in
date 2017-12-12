@@ -7,7 +7,7 @@ I'll be updating this site in the winter, so watch out world!!!! I don't know wh
 ### Things I'm looking forward to doing over break:
 * Play [Reverie, by Claude Debussy](https://www.youtube.com/watch?v=vqXwzUW_fhM) on piano. [(sheet music here)](http://ks.petruccimusiclibrary.org/files/imglnks/usimg/9/97/IMSLP14012-Debussy_-_R%C3%AAverie_(piano).pdf)
 
-* Try the first of the [Deux Arabesques, by Claude Debussy](https://www.youtube.com/watch?v=Yh36PaE-Pf0).[(sheet music here)](http://ks.petruccimusiclibrary.org/files/imglnks/usimg/3/37/IMSLP02821-Debussy-L066.pdf)
+* Try the first of the [Deux Arabesques, by Claude Debussy](https://www.youtube.com/watch?v=Yh36PaE-Pf0). [(sheet music here)](http://ks.petruccimusiclibrary.org/files/imglnks/usimg/3/37/IMSLP02821-Debussy-L066.pdf)
 
 * Go snowboarding in Tahoe!!!!! And shredding that fresh powder!! (Just kidding I'm not that good at snowboarding yet)
 
