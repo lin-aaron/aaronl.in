@@ -1,6 +1,12 @@
 body{
 	font-family: 'Garamond';
 }
+h1{
+	margin: auto;
+}
+p{
+	font-size: 30pt;
+}
 .green{
 	color: 'forestgreen';
 }
