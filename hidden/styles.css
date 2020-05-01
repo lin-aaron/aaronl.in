@@ -1,14 +1,16 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(82, 173, 64, 0.842);
 }
 
 #clock {
     font-size: 10vw;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
+    left: 46%;
+    transform: translate(-50%,-46%);
+    -ms-transform: translate(-50%,-46%);
+    color: rgba(102, 52, 6, 0.842);
 }
 
 #overlay {
@@ -20,7 +22,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
   }
@@ -33,6 +35,12 @@ body {
     color: white;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
+    background-color: rgba(13, 83, 30, 0.877);
+    border-radius: 45px;
+    padding: 45px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(7, 71, 36);
 }
 
 #mute{
