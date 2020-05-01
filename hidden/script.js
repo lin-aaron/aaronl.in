@@ -47,8 +47,8 @@ while (i<24) {
     let hour = ( i > 12 ) ? i - 12 : i;
     hour = ( hour == 0 ) ? 12 : hour;
     
-    console.log('anch_songs/' + hour + " " + timeOfDay + ".mp3");
-    audios[i] = new Audio('anch_songs/' + hour + " " + timeOfDay + ".mp3");
+    console.log('acnh_songs/' + hour + " " + timeOfDay + ".mp3");
+    audios[i] = new Audio('acnh_songs/' + hour + " " + timeOfDay + ".mp3");
     audios[i].loop = true;
     i++;
 }
