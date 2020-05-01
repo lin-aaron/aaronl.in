@@ -1,3 +1,4 @@
+// Base code taken from https://www.elated.com/creating-a-javascript-clock/
 function updateClock ( )
 {
   var currentTime = new Date ( );
@@ -39,16 +40,39 @@ function updateClock ( )
   }
 }
 
+function toggleMute() {
+    audios.forEach(element => {
+        element.muted = !element.muted;
+    });
+
+}
+
+function CheckUrl(url)
+{
+    var http = new XMLHttpRequest();
+    http.open('HEAD', url, false);
+    http.send();
+    return http.status!=404;
+}
+
 // Create array of hourly music
 let i = 0;
 audios = new Array(24);
+var looped = [19, 20, 21, 22, 23, 0, 1];
 while (i<24) {
     let timeOfDay = ( i < 12 ) ? "AM" : "PM";
     let hour = ( i > 12 ) ? i - 12 : i;
     hour = ( hour == 0 ) ? 12 : hour;
     
-    console.log('acnh_songs/' + hour + " " + timeOfDay + ".mp3");
-    audios[i] = new Audio('acnh_songs/' + hour + " " + timeOfDay + ".mp3");
+    
+    if(looped.includes(i)){
+        audios[i] = new Audio('acnh_songs/' + hour + " " + timeOfDay + "_loop" + ".mp3"); 
+        console.log('acnh_songs/' + hour + " " + timeOfDay + "_loop" + ".mp3")
+    } else {
+        audios[i] = new Audio('acnh_songs/' + hour + " " + timeOfDay + ".mp3");
+        console.log('acnh_songs/' + hour + " " + timeOfDay + ".mp3");
+    }
+
     audios[i].loop = true;
     i++;
 }
@@ -58,11 +82,15 @@ window.onload = () => {
     updateClock(); 
     setInterval('updateClock()', 1000 );
 
-    const clickToAuthorize = document.querySelector('#clock');
-    const clickAlert = document.querySelector('#clickAlert');
+    const clickToAuthorize = document.querySelector('#overlay');
     clickToAuthorize.onclick = () => {
-        clickAlert.style.visibility = "hidden";
+        clickToAuthorize.style.visibility = "hidden";
         currentAudio = 24;
         audios[currentAudio].play();
     }
+    var muteButton = document.querySelector('#mute');
+    muteButton.onclick = () => {
+        toggleMute();
+        document.getElementById("mute").classList.toggle("muted");
+    };
 }
